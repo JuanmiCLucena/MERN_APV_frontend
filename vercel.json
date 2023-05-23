@@ -1,7 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/index.html" },
-    { "source": "/olvide-password/:token", "destination": "/index.html" },
-    { "source": "/confirmar-cuenta/:id", "destination": "/index.html" }
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
